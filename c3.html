@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+       <form method="get">
+            <input type="text" required="required" name="full_name" value="Pero Perovski"/><br/>
+            <input type="password"/><br/>
+            <input type="number"/><br/>
+            <input type="date"/><br/>
+            <input type="datetime-local"/><br/>
+            <input type="time"/><br/>
+            <input type="range"/><br/>
+            <input type="color"/><br/>
+            <input type="email"/><br/>
+            <input type="url"/><br/> <!-- unified resource locator -->
+            <input type="checkbox"/><br/>
+            <input type="radio"/><br/>
+            <input type="hidden"/><br/>
+
+            <textarea name="kratka_biografija">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quibusdam totam quod illo cum minima hic esse itaque odio, magni dignissimos, assumenda necessitatibus perferendis id nemo quas at perspiciatis consequatur?</textarea><br/>
+            <select name="ime">
+                <option value="janko">Janko</option>
+                <option value="petko">Petko</option>
+                <option value="stanko">Stanko</option>
+            </select>
+            <select multiple="multiple">
+                <option>1980</option>
+                <option>1981</option>
+                <option>1982</option>
+            </select><br/>
+            <button type="button">Kopce 1 (button)</button>
+            <button type="submit">Kopce 2 (submit)</button>
+            <button type="reset">Kopce 3 (reset)</button>
+            <hr/>
+            <label>
+                <input type="radio" name="hrana" value="pica"/>
+                Pica
+            </label>
+            <label>
+                <input type="radio" name="hrana" value="burger"/>
+                Burger
+            </label>
+            <label>
+                <input type="radio" name="hrana" value="palacinki"/>
+                Palacinki
+            </label>
+            <hr/>
+            <label>
+                <input type="checkbox" name="toppings[]" value="mushrooms"/>
+                Pica
+            </label>
+            <label>
+                <input type="checkbox" name="toppings[]" value="mozzarela"/>
+                Burger
+            </label>
+            <label>
+                <input type="checkbox" name="toppings[]" value="prschutto"/>
+                Palacinki
+            </label>
+       </form> 
+    </body>
+</html>
