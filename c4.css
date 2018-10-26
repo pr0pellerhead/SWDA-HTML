@@ -1,0 +1,50 @@
+/* 
+selector {
+    property: value;
+    ...
+    property: value;
+}
+*/
+
+body {
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/* span {
+    text-decoration: underline;
+    color: black;
+} */
+
+.yellow {
+    color: yellow;
+    /* text-decoration: none; */
+}
+
+.black {
+    color: black;
+}
+
+#paragraph {
+    font-style: italic;
+}
+
+.iminja {
+    color: black;
+    list-style: none;
+    width: 400px;
+}
+
+.iminja li {
+    border-bottom: 1px solid white;
+}
+
+li.yellow {
+    color: grey;
+}
+
+.iminja li .yellow {
+    color: #3b9eba;
+}
