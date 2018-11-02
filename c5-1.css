@@ -1,0 +1,64 @@
+label {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+    label span {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: grey;
+    }
+
+    label input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid blue;
+        outline: none;
+        height: 20px;
+        font-size: 15px;
+    }
+
+.form-btn {
+    width: 200px;
+    padding: 7px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+.form {
+    display: none;
+}
+
+
+/* ***************************************** */
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 20px 30px 40px;
+}
+
+div.cleaner:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.yellow {
+    background-color: yellow;
+}

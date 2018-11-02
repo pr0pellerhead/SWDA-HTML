@@ -1,0 +1,53 @@
+div {
+    width: 500px;
+    height: 100px;
+    background-color: cyan;
+}
+
+.brown {
+    background-color: brown;
+}
+
+#purple {
+    height: 200px;
+    background-color: purple;
+}
+
+.brown span {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-image {
+    float: left;
+}
+
+.el-inline {
+    display: inline;
+    color: red;
+    border: 1px solid red;
+    height: 40px;
+    width: 200px;
+}
+
+.el-inline-block {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    height: 40px;
+    width: 200px;
+}
+
+.el-block {
+    display: block;
+    color: red;
+    border: 1px solid red;
+    height: 40px;
+    width: 200px;
+}
+
+/* 
+inline
+block
+inline-block */
