@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="c7.css">
+</head>
+<body>
+    <div class="shopping-list">
+        <h2 class="title">Shopping List</h2>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th>items</th>
+                <th>quantity</th>
+                <th>price</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td class="col-product">
+                    <img src="images/1.png" alt="oranges">
+                    <div class="name">
+                        <span class="product-name">Oranges</span>
+                        <span class="product-price">$0.5/piece</span>
+                    </div>
+                </td>
+                <td class="col-items">
+                    <button class="item-btn minus">-</button>
+                    <input type="text" class="num" value="0">
+                    <button class="item-btn plus">+</button>
+                </td>
+                <td class="col-price">$0.5</td>
+                <td class="col-delete">&times;</td>
+            </tr>
+            <tr>
+                <td class="col-product">
+                    <img src="images/2.png" alt="lettuce">
+                    <div class="name">
+                        <span class="product-name">Lettuce</span>
+                        <span class="product-price">$1/piece</span>
+                    </div>
+                </td>
+                <td class="col-items">
+                    <button class="item-btn minus">-</button>
+                    <input type="text" class="num" value="0">
+                    <button class="item-btn plus">+</button>
+                </td>
+                <td class="col-price">$1</td>
+                <td class="col-delete">&times;</td>
+            </tr>
+            <tr>
+                <td class="col-product">
+                    <img src="images/3.png" alt="strawberries">
+                    <div class="name">
+                        <span class="product-name">Strawberries</span>
+                        <span class="product-price">$4/kg</span>
+                    </div>
+                </td>
+                <td class="col-items">
+                    <button class="item-btn minus">-</button>
+                    <input type="text" class="num" value="0">
+                    <button class="item-btn plus">+</button>
+                </td>
+                <td class="col-price">$4</td>
+                <td class="col-delete">&times;</td>
+            </tr>
+        </table>
+        <button class="sl-button add">Add Item</button>
+        <button class="sl-button empty">Empty List</button>
+    </div>
+</body>
+</html>
