@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -127,9 +127,157 @@ body {
         margin-left: 40px;
         margin-top: 28px;
     }
-    
+
     .shopping-list .sl-button.empty {
         background-color: #a7a7a7;
         margin-top: 28px;
         margin-left: 12px;
     }
+    
+
+.component-separator {
+    border: none;
+    border-top: white dashed 1px;
+    margin: 50px 0;
+}
+
+.calendar {
+    width: 580px;
+    height: 478px;
+    background-color: #1a1d28;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+    .cal-left {
+        width: 246px;
+        height: 100%;
+        background-color: #61697f;
+        background-image: url(images/cal_img.png);
+    }
+
+    .cal-right {
+        width: 334px;
+        height: 100%;
+    }
+
+    .cal-title {
+        display: flex;
+        flex-direction: row;
+    }
+        
+        .cal-title .year {
+            font-size: 24px;
+            padding: 38px 0 0 38px;
+            color: #ffffff;
+            font-weight: bold;
+            line-height: 24px;
+        }
+
+        .cal-title button {
+            width: 22px;
+            height: 18px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin: 38px 0 0 92px;
+        }
+        
+        .cal-title button span {
+            width: 22px;
+            display: block;
+            height: 2px;
+            background-color: #c3cbdb;
+        }
+
+            .cal-title button span.l2 {
+                width: 14px;
+            }
+
+            .cal-title button span.l3 {
+                width: 19px;
+            }
+
+    .cal-date {
+        font-size: 30px;
+        line-height: 40px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 138px 0 0 38px;
+    }
+
+        .cal-date span {
+            font-size: 24px;
+            display: block;
+        }
+
+    .cal-cta {
+        padding: 130px 0 0 38px;
+    }
+
+        .cal-cta button {
+            width: 103px;
+            height: 32px;
+            border-radius: 2px;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            background-color: #8bc058;
+        }
+    
+    .cal-days {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 42px auto;
+    }
+
+        .cal-days span { 
+            font-size: 16px;
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    .cal-dates {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto 42px auto;
+        flex-wrap: wrap;
+    }
+
+        .cal-dates span {
+            display: block;
+            width: calc(100% / 7);
+            text-align: center;
+            font-size: 16px;
+            /* line-height: 44px; */
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-weight: bold;
+            padding-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .cal-dates .non-current {
+            color: #414b58;
+        }
+
+        .circle {
+            border: 3px solid #77ad44;
+            border-radius: 50%;
+            /* height: 40px; */
+        }
