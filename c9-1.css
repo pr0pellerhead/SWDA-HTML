@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    min-width: 100%;
+}
+
+.main-header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 70px rgba(0, 0, 0, .15);
+    position: fixed;
+    background-color: rgba(255, 255, 255, .9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.main-header h1 {
+    width: 500px;
+    text-align: left;
+}
+
+.main-header nav {
+    width: 500px;
+    text-align: right;
+}
+
+section.splash {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.splash > div {
+    width: 700px;
+    text-align: center;
+}
+
+section.splash > div h2 {
+    margin: 50px 0;
+    font-size: 80px;
+}
+
+section.splash > div a {
+    margin: 50px auto;
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+    background-color: #fff;
+    width: 200px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+section.about-us {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.about-us h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+section.about-us .person {
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .2);
+}
+
+section.about-us .person img {
+    background-color: silver;
+    width: 60%;
+    margin: 40px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+section.about-us .person .name {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+}
+
+section.about-us .person .email {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+section.about-us > p {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+/* @media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+} */
+
+/* PHONE */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .main-header nav {
+        display: none;
+    }
+
+    .main-header h1 {
+        width: 100%;
+        text-align: center;
+    }
+}
